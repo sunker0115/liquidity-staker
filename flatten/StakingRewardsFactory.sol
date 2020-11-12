@@ -757,7 +757,9 @@ contract StakingRewardsFactory is Ownable {
 
     // rewards info by staking token
     mapping(address => StakingRewardsInfo) public stakingRewardsInfoByStakingToken;
-    //https://etherscan.io/address/0x7fba4b8dc5e7616e59622806932dbea72537a56b#code
+    //StakingRewardsFactory https://etherscan.io/address/0x3032ab3fa8c01d786d29dade018d7f2017918e12#code
+    //StakingRewards https://etherscan.io/address/0x7fba4b8dc5e7616e59622806932dbea72537a56b#code
+    //BEEF _rewardsToken https://ropsten.etherscan.io/tx/0x608fad4cf336e629774a5b70190ce28662c282aca9d652115bf034b5e721c4ef
     constructor(
         address _rewardsToken,
         uint _stakingRewardsGenesis
