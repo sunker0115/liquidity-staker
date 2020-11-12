@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@beefswap/core@^1.0.1":
+  version "1.0.1"
+  resolved "http://149.129.81.147:4873/@beefswap%2fcore/-/core-1.0.1.tgz#d790f4980fe4bbacf867ee45be5257fac89f5713"
+  integrity sha512-sFVRPQ80ii9PHq2rCxOjL2pGpmJLDaT5iLqSNX3Q8e1aY6HcdOK3c2x7Yqywtj0THmdU83uwxgRFiHxRVqQ3rQ==
+  dependencies:
+    "@openzeppelin/contracts" "^3.2.0"
+
 "@ensdomains/ens@^0.4.4":
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/@ensdomains/ens/-/ens-0.4.5.tgz#e0aebc005afdc066447c6e22feb4eda89a5edbfc"
@@ -398,6 +405,11 @@
     "@ethersproject/properties" "^5.0.3"
     "@ethersproject/strings" "^5.0.3"
 
+"@openzeppelin/contracts@^3.2.0":
+  version "3.2.0"
+  resolved "http://149.129.81.147:4873/@openzeppelin%2fcontracts/-/contracts-3.2.0.tgz#3e6b3a7662d8ed64271ade96ef42655db983fd9d"
+  integrity sha512-bUOmkSoPkjnUyMiKo6RYnb0VHBk5D9KKDAgNLzF41aqAM3TeE0yGdFF5dVRcV60pZdJLlyFT/jjXIZCWyyEzAQ==
+
 "@resolver-engine/core@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@resolver-engine/core/-/core-0.3.3.tgz#590f77d85d45bc7ecc4e06c654f41345db6ca967"
@@ -519,11 +531,6 @@
   integrity sha512-+ZjSA8ELlOp8SlKi0YLB2tz9d5iPNEmOBd+8Rz21wTMdaXQIa9b6TEnD6l5qKOCypE7FSyPyck12qZJxSDNoog==
   dependencies:
     "@types/node" "*"
-
-"@uniswap/v2-core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
 "@web3-js/scrypt-shim@^0.1.0":
   version "0.1.0"
