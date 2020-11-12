@@ -31,6 +31,12 @@ contract StakingRewards is IStakingRewards, RewardsDistributionRecipient, Reentr
     mapping(address => uint256) private _balances;
 
     /* ========== CONSTRUCTOR ========== */
+    /* 
+        该合约在StakingRewardsFactory里创建
+        address _rewardsDistribution    StakingRewardsFactory contract address 0x3032Ab3Fa8C01d786D29dAdE018d7f2017918e12
+        address _rewardsToken,          uni token
+        address _stakingToken           LP uni-v2
+    */
 
     constructor(
         address _rewardsDistribution,
