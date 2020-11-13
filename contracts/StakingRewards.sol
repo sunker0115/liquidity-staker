@@ -33,9 +33,11 @@ contract StakingRewards is IStakingRewards, RewardsDistributionRecipient, Reentr
     /* ========== CONSTRUCTOR ========== */
     /* 
         该合约在StakingRewardsFactory里创建
-        address _rewardsDistribution    StakingRewardsFactory contract address 0x3032Ab3Fa8C01d786D29dAdE018d7f2017918e12
-        address _rewardsToken,          uni token
-        address _stakingToken           LP uni-v2
+        address _rewardsDistribution    StakingRewardsFactory contract address 0x77Dcfe8904d571CF05e4EedFa81C22c3cB57c444
+        address UNI 奖励 _rewardsToken,          uni token BEEF 0x833e7d4c9c943dd7b734fb7127e5e3f9c1a541e5
+        address LP证明 _stakingToken           LP uni-v2 TS ETH LP 0x1af77a32a95dc886c84604869b4b8adc8264427a
+
+        TS ETH 流动性StakingRewards address   0xa84325ff60734231bcb4c2db42403d57bf3a8177
     */
 
     constructor(
