@@ -1,10 +1,10 @@
 {
-  "name": "@uniswap/liquidity-staker",
+  "name": "@beefswap/liquidity-staker",
   "version": "1.0.2",
   "author": "Noah Zinsmeister",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/liquidity-staker"
+    "url": "https://github.com/sunker0115/liquidity-staker"
   },
   "files": [
     "build"
